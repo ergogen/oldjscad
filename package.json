@@ -39,7 +39,7 @@
   "license": "MIT",
   "dependencies": {
     "@jscad/csg": "0.3.6",
-    "@jscad/io": "0.3.7",
+    "@jscad/io": "github:mrzealot/oldjscadio",
     "@jscad/openscad-openjscad-translator": "0.0.10",
     "@jscad/scad-api": "^0.5.1",
     "astring": "^1.0.2",

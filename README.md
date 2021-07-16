@@ -1,4 +1,16 @@
 # OpenJSCAD.org
+
+**MrZealot fork notes**: copied this because MakerJS still outputs V1 JSCAD code, and this lib is perfect for STL conversion.
+Sadly, its dependencies are not only out of date, but `xmldom` actually triggers npm's audit system.
+Fortunately, tho, `xmldom` is only needed for formats I'm not interested in, so I'm forking this (and its dependent `@jscad/io` package) to remove the unnecessary formats, and fix `npm audit`.
+No other, functional change takes place.
+All credit to the original authors.
+
+<br>
+<br>
+
+
+
 <img src="doc/logo.png" width=256 align=right>
 
 >*OpenJsCad.org* is a more up-to-date [OpenJsCAD](http://joostn.github.com/OpenJsCad/) frontend where you can edit .jscad files either locally or online via JS editor (built-in).
